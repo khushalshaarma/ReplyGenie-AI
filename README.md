@@ -1,4 +1,4 @@
-AOTO CHAT
+ReplyGenie AI
 =========
 
 Real-time chat with per-recipient translation and AI-powered reply suggestions. Built as a lightweight, developer-friendly demo that is easy to run locally and extend for production.
