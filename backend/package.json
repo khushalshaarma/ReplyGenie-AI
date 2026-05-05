@@ -1,0 +1,30 @@
+{
+  "name": "aoto-chat-backend",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src --exec node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+  ,
+  "overrides": {
+    "uuid": "^14.0.0",
+    "semver": "^7.5.4"
+  },
+  "resolutions": {
+    "uuid": "^14.0.0",
+    "semver": "^7.5.4"
+  }
+}
